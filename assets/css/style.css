@@ -545,7 +545,6 @@ header .app li {
   position: relative;
 }
 .banner {
-  background: url(../images/cover.jpg) no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
