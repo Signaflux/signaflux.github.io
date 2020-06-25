@@ -15,22 +15,11 @@ $(window).load(function() {
 
 //-------Appearence of navigation----------
 
-  $('header .nav').onePageNav({
-    scrollThreshold: 0.2, // Adjust if Navigation highlights too early or too late
-    scrollOffset: 90 //Height of Navigation Bar
-  });
 
+  $('#home').slideDown(400);
 
   //var winWidth = $(window).width();
   $(window).scroll(function() {
-    //if (winWidth > 767) {
-      var $scrollHeight = $(window).scrollTop();
-      if ($scrollHeight > 600) {
-        $('#home').slideDown(400);
-      }else{
-        $('#home').slideUp(400);
-      }
-    //}
 
 	//got o top
 	  if ($(this).scrollTop() > 200) {
@@ -61,15 +50,6 @@ $('a.scrollto').bind('click.smoothscroll', function (event) {
     });
 });
 
-// ------------- Owl Carousel--------------
-
- $("#owl-demo").owlCarousel({
-  navigation : true,
-  slideSpeed : 300,
-  pagination: false,
-  autoPlay: 5000,
-  items : 4,
-  });
 
 //--------------- for navigation---------------------
 
@@ -84,40 +64,7 @@ $('a.scrollto').bind('click.smoothscroll', function (event) {
 	initialize();
  });
 
-// ------------- Magnific--------------
 
-    $('.test-popup-link').magnificPopup({
-      type:'image',
-      closeBtnInside:true,
-      // Delay in milliseconds before popup is removed
-      removalDelay: 300,
-
-      // Class that is added to popup wrapper and background
-      // make it unique to apply your CSS animations just to this exact popup
-      mainClass: 'mfp-fade',
-      gallery: {
-          enabled: true, // set to true to enable gallery
-
-          preload: [0,2], // read about this option in next Lazy-loading section
-
-          navigateByImgClick: true,
-
-          //arrowMarkup: '<button title="%title%" type="button" class="mfp-arrow mfp-arrow-%dir%"></button>', // markup of an arrow button
-
-          closeMarkup: '<button title="%title%" class="mfp-close"><i class="mfp-close-icn">&times;</i></button>',
-
-          tPrev: 'Previous (Left arrow key)', // title for left button
-          tNext: 'Next (Right arrow key)', // title for right button
-          //tCounter: '<span class="mfp-counter">%curr% of %total%</span>' // markup of counter
-        }
-   });
-
-// ------------------Carousel--------------
-
-$('#myCarousel, #myCarousel2').carousel({
-  interval: 4000,
-  pause: "null"
-})
 
 //-----------Text Slider on Banner-----------
 
@@ -150,15 +97,6 @@ $('#myCarousel, #myCarousel2').carousel({
 
 //------------------video popup---------------
 
-$('.play').magnificPopup({
-  disableOn: 700,
-  type: 'iframe',
-  mainClass: 'mfp-fade',
-  removalDelay: 160,
-  preloader: false,
-  fixedContentPos: false
-});
-
 
 });
 
@@ -171,7 +109,7 @@ var fullScreenHome = function() {
       contH = $(".banner-carousel .col-sm-12").height(),
       contMT = (height / 2) - (contH / 2);
     $(".banner-carousel").css('min-height', height + "px");
-    $(".trans-bg").css('min-height', height + "px");
+    //$(".trans-bg").css('min-height', height + "px");
     $(".banner .col-sm-12").css('margin-top', (contMT - 350) + "px");
     $(".banner-carousel .col-sm-12").css('margin-top', (contMT - 10) + "px");
   }

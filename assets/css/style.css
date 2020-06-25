@@ -127,7 +127,7 @@ ul, li {
 }
 .trans-bg {
   position: relative;
-  padding: 150px 0;
+  padding: 60px 0;
 }
 .trans-bg-purple {
   background: rgba(98, 67, 138, 0.80) !important;
@@ -562,19 +562,25 @@ section.banner-carousel {
 .banner h3 {
   text-transform: capitalize;
   margin-bottom: 50px;
+  color: #0aabe1;
 }
 .banner-title {
   font-size: 45px;
   text-align: center;
   font-weight: 700;
-  color: #fff;
+  color: #798289;
 }
 .banner-carousel p,
 .banner p {
-  color: #fff;
-  font-size: 24px;
-  font-weight: 300;
-  margin-bottom: 20px;
+  color: #798289;
+  font-size: 16px;
+  font-weight: 100;
+  margin-top: 18px;
+}
+
+.banner p span {
+  color: #00a7dd;
+
 }
 
 .banner-carousel h2 .lg-logo:hover img,
@@ -615,7 +621,7 @@ section.banner-carousel {
   line-height: 35px;
   font-size: 36px;
   text-decoration: none;
-  color: #fff;
+  color: #798289;
 }
 .header-logo {
   width: 65px;
@@ -696,8 +702,8 @@ section.banner-carousel {
 .flex_text li {
   text-align: center;
   font-size: 30px;
-  font-weight: 700;
-  color: #fff;
+  font-weight: 100;
+  color: #00a7dd;
   min-height: 40px;
   line-height: 40px;
   margin-bottom: 0;
@@ -848,6 +854,14 @@ h3 {
 
 .technologie p {
   color: white;
+}
+
+.technologie h3 {
+  color: white;
+  text-align: center;
+  text-orientation: none;
+  padding-bottom: 50px;
+
 }
 
 /*
