@@ -60,6 +60,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
 }
+
 a {
   color: #00a7dd;
 }
@@ -127,7 +128,7 @@ ul, li {
 }
 .trans-bg {
   position: relative;
-  padding: 60px 0;
+  padding: 80px 0;
 }
 .trans-bg-purple {
   background: rgba(98, 67, 138, 0.80) !important;
@@ -1568,7 +1569,6 @@ section.contact > .container {
 */
 
 #footer {
-  background: url(../images/feature_bg.jpg) no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
