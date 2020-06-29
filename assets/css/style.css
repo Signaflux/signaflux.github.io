@@ -429,7 +429,7 @@ header .nav > li > a {
 }
 
 header .navbar-default .navbar-nav > li > a {
-  color: #00a7dd;
+  color:#798289;
   text-transform: uppercase;
 }
 header .navbar-default .navbar-nav > li > a:hover {
@@ -445,6 +445,20 @@ header .navbar-default .navbar-nav > li > a:hover,
 header .navbar-default .navbar-nav > li > a:focus {
   color: #00a7dd;
   border:none;
+}
+
+header .navbar-default .navbar-nav > li > a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background: #00a7dd;
+    transition: width .3s;
+}
+
+header .navbar-default .navbar-nav > li > a:hover::after {
+    width: 100%;
+    transition: width .3s;
 }
 
 /*
