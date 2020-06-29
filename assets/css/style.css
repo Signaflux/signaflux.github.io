@@ -368,7 +368,7 @@ h6 {
 
 header {
   display: none;
-  padding: 20px 0;
+  padding: 20px 0 0 0;
   background-color: #fff;
   -webkit-box-shadow:0 0 9px -5px #000;
   -moz-box-shadow:0 0 9px -5px #000;
@@ -454,6 +454,8 @@ header .navbar-default .navbar-nav > li > a:focus {
 */
 .app {
   text-align: center;
+  padding-top:8px;
+  font-size: 16px;
 }
 header .app li {
   float: left;
@@ -627,6 +629,7 @@ section.banner-carousel {
 .header-logo {
   width: 65px;
   height: 65px;
+  padding-bottom: 5px;
 }
 /*.banner-carousel h2 .lg-logo:after,
 .banner h2 .lg-logo:after {

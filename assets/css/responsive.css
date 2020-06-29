@@ -16,12 +16,17 @@
     display: inline;
   }
    header .nav > li > a {
-     font-size: 19px;
+     font-size: 16px;
    }
 }
 @media screen and (max-width: 1200px) {
   .description-list li {
-    font-size: 18px;
+    font-size: 16px;
+  .banner  .banner-logo {
+    width: 80%;
+    padding-top: 10%;
+
+  }
   }
 }
 @media screen and (max-width: 992px) {
@@ -35,6 +40,11 @@
    .description-list li {
     font-size: 14px;
     margin-bottom: 8px;
+  }
+  .banner  .banner-logo {
+    width: 60%;
+    padding-top: 10%;
+
   }
 }
 @media screen and (max-width: 768px) {
@@ -64,6 +74,14 @@
   .banner h2, .banner h3, .banner p {
     margin-bottom: 45px;
   }
+
+  .banner  .banner-logo {
+    width: 60%;
+    padding-top: 10%;
+
+  }
+
+
   .banner-title {
     font-size: 32px;
   }
