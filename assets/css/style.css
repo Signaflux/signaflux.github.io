@@ -1509,6 +1509,11 @@ section.contact > .container {
   display: none;
 }
 
+.contact .contact-details {
+  margin-top: 80px;
+
+}
+
 /*
 =============================================
 # - 13.1 - Contact-info
